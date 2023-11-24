@@ -9,22 +9,22 @@ function App() {
   return (
     <>
        <div
-    class=" d-flex align-items-center justify-content-center flex-column"
-   
-  >
+    className=" d-flex align-items-center justify-content-center flex-column"
+    >
+        
     <h3>Todo App</h3>
-    <div class="d-flex align-items-center mb-3">
-      <div class="form-group mr-3 mb-0">
+    <div className="d-flex align-items-center mb-3">
+      <div className="form-group mr-3 mb-0">
         <input
           type="text"
-          class="form-control"
+          className="form-control"
           id="formGroupExampleInput"
           placeholder="Enter a task here"
         />
       </div>
       <button
         type="button"
-        class="btn btn-primary mr-3"
+        className="btn btn-primary mr-3"
       >
         Save
       </button>
